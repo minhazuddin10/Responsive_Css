@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.background {
+
+      background-color: rgb(17, 17, 17);
+
+}
+
+
+
+.inter-font {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+
+}
+
+.nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.item {
+      display: flex;
+      align-items: center;
+}
+
+a {
+      text-decoration: none;
+      color: rgb(255, 255, 255)
+}
+
+li {
+      list-style: none;
+      margin: 10px;
+}
+
+.fit {
+      color: rgb(230, 83, 60);
+
+      font-size: 2.5rem;
+      font-weight: 800;
+
+}
+
+.home {
+      border-radius: 46px;
+
+      background: rgb(230, 83, 60);
+      padding: 8px 20px 8px 20px;
+}
+
+.details {
+      max-width: 32rem;
+      margin: 0 auto;
+}
+
+.title {
+      color: rgb(255, 255, 255);
+
+      font-size: 5rem;
+      font-weight: 900;
+}
+
+.span {
+      color: rgb(255, 255, 255);
+
+      font-size: 5rem;
+      font-weight: 100;
+
+}
+
+.des {
+      color: rgba(255, 255, 255, 0.5);
+
+      font-size: 1rem;
+      font-weight: 400;
+
+}
+
+.btn {
+      border-radius: 42px;
+
+      background: rgb(230, 83, 60);
+      border-radius: 42px;
+      padding: 16px 40px 16px 40px;
+      border: none;
+      font-weight: 600;
+      color: rgb(255, 255, 255)
+}
+
+.btn1 {
+      box-sizing: border-box;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 42px;
+      padding: 16px 40px 16px 40px;
+      margin: 14px;
+      background-color: black;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+
+}
+
+
+
+.head {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+}
+
+.container {
+      position: absolute;
+      margin-left: 150px;
+      margin-top: -400px;
+
+}
+
+.container2 {
+      position: absolute;
+      margin-top: -100px;
+      margin-left: -60px;
+
+}
+
+
+img {
+      position: relative;
+}
+
+.btn2 {
+
+
+      box-sizing: border-box;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+
+      backdrop-filter: blur(20px);
+      background: rgba(255, 255, 255, 0.1);
+      width: 193px;
+      height: 98px;
+
+
+}
+
+.btn3 {
+
+      box-sizing: border-box;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+
+      backdrop-filter: blur(20px);
+      background: rgba(48, 48, 48, 0.54);
+      width: 206px;
+      height: 96px;
+}
+
+.val {
+      color: rgb(255, 255, 255);
+      font-size: 2.8rem;
+      font-weight: 900;
+
+}
+
+des {
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 1.7rem;
+      font-weight: 400;
+
+}
+
+.habit {
+      margin-top: 100px;
+}
+
+.grid {
+
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
+      margin-top: 54px;
+}
+
+.align {
+      max-width: 671px;
+      margin: 0 auto;
+      text-align: center;
+}
+
+
+
+
+.h-t {
+
+      color: rgb(255, 255, 255);
+      font-size: 3rem;
+      font-weight: 900;
+
+}
+
+.h-des {
+
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 1rem;
+      font-weight: 400;
+
+}
+
+.im {
+      border-radius: 50%;
+}
+
+.jim {
+
+      color: rgb(255, 255, 255);
+      font-size: 1.2rem;
+      font-weight: 600;
+
+}
+
+.jim-des {
+
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8rem;
+      font-weight: 400;
+
+
+}
+
+.layer {
+
+      max-width: 1200px;
+      margin: 0 auto;
+      background: rgb(34, 34, 34);
+      border-radius: 18px;
+      margin-top: 100px;
+
+
+}
+
+
+.fixed {
+
+
+      display: flex;
+
+
+}
+
+.det-t {
+
+      color: rgb(255, 255, 255);
+
+      font-size: 3rem;
+      font-weight: 900;
+
+
+}
+
+.btn-mar {
+
+      margin-top: 34px;
+}
+
+.run {
+      width: 366px;
+      height: 312px;
+      border-radius: 40px;
+      padding: 30px 32px 29px;
+}
+
+
+
+.challenges {
+      background-color: #2a2a2a;
+      color: #ffffff;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      max-width: 1440px;
+      /* height: 487px; */
+      margin-top: 188px;
+      border-radius: 10px;
+}
+
+.container3 {
+
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      width: 80%;
+      max-width: 1200px;
+}
+
+.container>div {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      width: 45%;
+}
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+}
+
+th,
+td {
+      border: 1px solid #555555;
+      text-align: left;
+      padding: 8px;
+}
+
+th {
+      background-color: #444444;
+}
+
+td {
+      background-color: #333333;
+}
+
+h2 {
+      color: rgb(255, 255, 255);
+      font-size: 1.8rem;
+      font-weight: 900;
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+}
+
+input,
+select,
+button {
+      background-color: #333333;
+      border: none;
+      padding: 10px;
+      margin-bottom: 10px;
+      color: #ffffff;
+      border-radius: 5px;
+      font-size: 1em;
+}
+
+button {
+      background-color: #ff6347;
+      cursor: pointer;
+      width: 224px;
+      height: 54px;
+      margin-top: 20px;
+}
+
+button:hover {
+      background-color: #ff4500;
+}
+
+p {
+      margin-top: 0;
+      margin-bottom: 20px;
+}
+
+.calculator {
+      max-width: 671px;
+      margin: 0 auto;
+      margin-top: 120px;
+}
+
+.bmi-t {
+      color: rgb(255, 255, 255);
+      font-size: 3rem;
+      font-weight: 900;
+
+}
+
+.overlap {
+      max-width: 1060px;
+      margin: 0 auto;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.1);
+      margin-top: 58px;
+}
+
+.over {
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 20px 10px 20px 20px;
+}
+
+.trainer-size {
+
+      width: 326.67px;
+      height: 272px;
+      border-radius: 18px;
+      background: rgba(0, 0, 0, 0.2);
+}
+
+.h3 {
+
+      color: white;
+      font-size: 1.2rem;
+
+}
+
+.p {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8rem;
+      margin-top: -10px;
+}
+
+.description {
+      position: relative;
+}
+
+.contain {
+      position: absolute;
+      margin-top: -80px;
+      margin-left: 20px;
+}
+
+.margin {
+      margin-top: 150px;
+}
+
+.design {
+
+      color: rgb(230, 83, 60);
+      font-size: 4.5rem;
+      font-weight: 800;
+      font-style: italic;
+
+}
+
+.design-p {
+      color: rgba(255, 255, 255, 0.5);
+
+      font-size: 0.8rem;
+      font-weight: 400;
+
+}
+
+.get-title {
+      color: rgb(255, 255, 255);
+
+      font-size: 2rem;
+      font-weight: 700;
+
+}
+
+.get-des {
+      color: rgba(255, 255, 255, 0.5);
+
+      font-size: 1.5rem;
+      font-weight: 400;
+
+
+}
+
+.foot {
+      margin-top: 180px;
+      background: rgba(255, 255, 255, 0.1);
+      max-width: 100%;
+      /* margin: 0 auto; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      padding: 30px;
+
+}
+
+.flex {
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 150px;
+
+}
+
+.copyright {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-top: 36px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+
+      a,
+      .home {
+            visibility: hidden;
+      }
+
+      li>i {
+            visibility: visible;
+            color: rgb(255, 255, 255);
+
+      }
+
+      .head {
+            flex-direction: column;
+      }
+
+      .btn1 {
+            margin: 5px;
+      }
+
+      .grid {
+
+            grid-template-columns: repeat(1, 1fr);
+      }
+
+      .fixed {
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      }
+
+      .container3 {
+
+            grid-template-columns: repeat(1, 1fr);
+
+      }
+
+      table {
+            width: 100%;
+      }
+
+      input,
+      select {
+            width: 100%;
+      }
+
+      .over,
+      .flex {
+
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            text-align: center;
+
+            .description {
+                  margin: 0 auto;
+            }
+
+
+
+
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+}
