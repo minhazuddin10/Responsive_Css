@@ -503,8 +503,7 @@ p {
 
 }
 
-
-
+/* Responsive Quary */
 
 @media screen and (max-width:576px) {
       .item {
